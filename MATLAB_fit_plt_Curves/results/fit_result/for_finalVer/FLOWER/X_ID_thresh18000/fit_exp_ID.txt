@@ -1,0 +1,14 @@
+This is the result from LOOCV_ExpModel_forRebuttal_newResolution.m (the part before (2) LOOCV)
+Note: x is global normalized!
+
+****************************************************
+(1) stylegan2 FLOWER:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9647
+       b =     36.5150
+       c =    100.5885
+R^2 = 0.9992
+MAE = 0.3392
