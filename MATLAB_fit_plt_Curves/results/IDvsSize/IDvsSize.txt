@@ -1,0 +1,36 @@
+This is the result from fit_IDsize.m
+
+****************************************************
+(1) FLOWER:
+     General model Exp1:
+     val(x) = a*exp(b*x)
+     Coefficients (with 95% confidence bounds):
+       a =       4.485  (2.603, 6.368)
+       b =      0.2478  (0.2335, 0.262)
+R^2 = 0.9995
+****************************************************
+(2) CelebA:
+     General model Exp1:
+     val(x) = a*exp(b*x)
+     Coefficients (with 95% confidence bounds):
+       a =       2.224  (1.591, 2.856)
+       b =      0.3515  (0.3391, 0.364)
+R^2 = 0.9999
+****************************************************
+(3) LSUN:
+     General model Exp1:
+     val(x) = a*exp(b*x)
+     Coefficients (with 95% confidence bounds):
+       a =       3.141  (2.774, 3.509)
+       b =      0.2727  (0.2692, 0.2763)
+R^2 = 1.0000
+****************************************************
+(4) MNIST:
+     General model Exp1:
+     val(x) = a*exp(b*x)
+     Coefficients (with 95% confidence bounds):
+       a =   3.502e-09  (-1.567e-08, 2.267e-08)
+       b =        2.42  (1.983, 2.858)
+R^2 = 0.9999
+
+

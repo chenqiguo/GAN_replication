@@ -1,0 +1,69 @@
+This is the result from LOOCV_ExpModel.m (the part before (2) LOOCV)
+Note: x is global normalized!
+
+****************************************************
+(1) biggan FLOWER:
+****for x = ID:
+    General model:
+    val(x) = a.^(b*x-c)
+    Coefficients:
+    a =      0.9652  
+    b =     92.3603
+    c =    100.0000  
+R^2 = 0.9942
+MAE = 0.9029
+****************************************************
+(2) stylegan2 FLOWER:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9818
+       b =    248.3521
+       c =    100.0002
+R^2 = 0.9999
+MAE = 0.0308
+****************************************************
+(3) biggan CelebA:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9957
+       b =    500.0000 
+       c =    100.0000
+R^2 = 0.9704
+MAE = 2.6241
+****************************************************
+(4) stylegan2 CelebA:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9929
+       b =    491.6040
+       c =    100.0026
+R^2 = 0.9970
+MAE = 1.2866
+****************************************************
+(5) biggan LSUN:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9856
+       b =     78.7101
+       c =    100.0000
+R^2 = 0.9606
+MAE = 1.7540
+****************************************************
+(6) stylegan2 LSUN:
+****for x = ID:
+     General model:
+     val(x) = a.^(b*x-c)
+     Coefficients:
+       a =      0.9805  
+       b =     95.2465  
+       c =    100.0000  
+R^2 = 0.9992
+MAE = 0.5416

@@ -1,0 +1,38 @@
+This is the result from computeMAE_sizeRe.m
+
+****************************************************
+(1) biggan FLOWER:
+$$$ for size->replication:
+    MAE = 5.0074
+$$$ for replication->size:
+    MAE = 7832.2769
+****************************************************
+(2) stylegan2 FLOWER:
+$$$ for size->replication:
+    MAE = 1.3876
+$$$ for replication->size:
+    MAE = 1032.3258
+****************************************************
+(3) biggan CelebA:
+$$$ for size->replication:
+    MAE = 9.9312
+$$$ for replication->size:
+    MAE = 2377.4361
+****************************************************
+(4) stylegan2 CelebA:
+$$$ for size->replication:
+    MAE = 2.0146
+$$$ for replication->size:
+    MAE = 618.9430
+****************************************************
+(5) biggan LSUN:
+$$$ for size->replication:
+    MAE = 5.6322
+$$$ for replication->size:
+    MAE = Inf
+****************************************************
+(6) stylegan2 LSUN:
+$$$ for size->replication:
+    MAE = 3.9267
+$$$ for replication->size:
+    MAE = 12511.5096

@@ -1,0 +1,51 @@
+This is the result from computeMAE_sizeRe.m
+Here we computed median absolute error
+
+****************************************************
+(1) biggan FLOWER:
+$$$ for size->replication:
+    MAE = 6.2709
+    R^2 = 0.9709
+$$$ for replication->size:
+    MAE = 602.0608
+    R^2 = 0.7195
+****************************************************
+(2) stylegan2 FLOWER:
+$$$ for size->replication:
+    MAE = 0.6265
+    R^2 = 0.9996
+$$$ for replication->size:
+    MAE = 222.4443
+    R^2 = 0.8754
+****************************************************
+(3) biggan CelebA:
+$$$ for size->replication:
+    MAE = 7.4701
+    R^2 = 0.8949
+$$$ for replication->size:
+    MAE = 2139.9594
+    R^2 = 0.0917
+****************************************************
+(4) stylegan2 CelebA:
+$$$ for size->replication:
+    MAE = 2.0183
+    R^2 = 0.9956
+$$$ for replication->size:
+    MAE = 453.7018
+    R^2 = 0.9543
+****************************************************
+(5) biggan LSUN:
+$$$ for size->replication:
+    MAE = 6.0358
+    R^2 = 0.8577
+$$$ for replication->size:
+    MAE = 2471486.4216
+    R^2 = NaN
+****************************************************
+(6) stylegan2 LSUN:
+$$$ for size->replication:
+    MAE = 4.2719
+    R^2 = 0.9922
+$$$ for replication->size:
+    MAE = 3023.0827
+    R^2 = 3.5046e-5
