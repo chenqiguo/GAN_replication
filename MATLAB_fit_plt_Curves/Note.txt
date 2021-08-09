@@ -1,4 +1,2 @@
-
-
-
+This folder contains MATLAB code for fitting and plotting GAN replication curves (NOT cleaned yet)
 
