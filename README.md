@@ -14,6 +14,6 @@ tqdm, numpy, scipy, and h5py
 The training set (for example, ImageNet)
 
 First, you may optionally prepare a pre-processed HDF5 version of your target dataset for faster I/O. Following this (or not), you'll need the Inception moments needed to calculate FID. These can both be done by modifying and running:
-
+```
 ./scripts/utils/prepare_data.sh
-
+```
