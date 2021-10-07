@@ -96,10 +96,20 @@ python dataset_tool.py \
  --random_subset=1000
 ```
 
-
-
-
-
+# 2.3. Training networks
+After TFRecord dataset (for example, FLOWER_256_sub1000) is created, run:
+```
+python run_training.py \
+ --num-gpus=1 --data-dir=datasets \
+ --config=config-f --dataset=FLOWER_256_sub1000 \
+ --total-kimg=25000 --gamma=100 \
+ --result-dir=results/results_FLOWER_256_sub1000
+```
+One can also add
+```
+--resume-pkl=results/results_FLOWER_256_sub1000/00001-stylegan2-FLOWER_256_sub1000-1gpu-config-f/network-snapshot-000322.pkl
+```
+to resume the training procedure.
 
 
 
