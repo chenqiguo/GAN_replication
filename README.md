@@ -67,8 +67,8 @@ python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_
 Analyzing and Improving the Image Quality of StyleGAN
 Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila
 
-Paper: `http://arxiv.org/abs/1912.04958`
-Video: `https://youtu.be/c-NJtV9Jvp0`
+Paper: http://arxiv.org/abs/1912.04958
+Video: https://youtu.be/c-NJtV9Jvp0
 
 # 2.1. Requirements
 Both Linux and Windows are supported. Linux is recommended for performance and compatibility reasons.
