@@ -24,6 +24,13 @@ During training, this script will output logs with training metrics and test met
 
 After training, one can use ```sample.py``` to produce additional samples and interpolations, test with different truncation values, batch sizes, number of standing stat accumulations, etc. 
 
+By default, everything is saved to weights/samples/logs/data folders.
+
+# 1.3 An Important Note on Inception Metrics
+
+This repo uses the PyTorch in-built inception network to calculate IS and FID. These scores are different from the scores you would get using the official TF inception code, and are only for monitoring purposes! Run sample.py on your model, with the --sample_npz argument, then run inception_tf13 to calculate the actual TensorFlow IS. Note that you will need to have TensorFlow 1.3 or earlier installed, as TF1.4+ breaks the original IS code.
+
+
 
 
 
