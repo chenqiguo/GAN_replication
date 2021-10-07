@@ -146,6 +146,14 @@ python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_
  --old_batch_size 26
 ```
 
+# 3. Dataset Complexity
+To compute the Intrinsic Dimensionality for a dataset, run:
+```
+python intdim_mle_chenqi_v4.py
+```
+
+
+
 
 
 
