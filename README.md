@@ -111,7 +111,40 @@ One can also add
 ```
 to resume the training procedure.
 
+# 2.4. 1-Nearest Neighbor Query
+Here we provide 1-NN query on the original training image for each GAN generated image in 4 different latent space.
 
+(a) To run 1-NN query in pixel-wise space:
+```
+python NN_getDist_testCode_forStylegan2.py
+python NN_getRepThreshPairImg_testCode_forStylegan2.py
+```
+(b) To run 1-NN query in inceptionV3 space: for example
+```
+python NNquery_inceptionv3_myTest.py \
+ --dataset FLOWER_128_sub1000 --data_dir /Usr/stylegan2/datasets_images/FLOWER_128_sub1000/ \
+ --gan_dir /Usr/gan_results_for_presentation/stylegan2/NNquery_inception_v3/FLOWER_128_sub1000_resume/fakes003248/view_sampleSheetImgs/ \
+ --result_dir /Usr/gan_results_for_presentation/stylegan2/NNquery_inception_v3/FLOWER_128_sub1000_resume/fakes003248/ \
+ --num_row 32 --num_col 32
+```
+(c) To run 1-NN query in inceptionV3 concatenating pixel-wise space: for example
+```
+python NNquery_inceptionv3_pixelwise_myTest.py \
+ --dataset FLOWER_128_sub1000 --data_dir /Usr/stylegan2/datasets_images/FLOWER_128_sub1000/ \
+ --gan_dir /Usr/gan_results_for_presentation/stylegan2/NNquery_inception_v3/FLOWER_128_sub1000_resume/fakes003248/view_sampleSheetImgs/ \
+ --result_dir /Usr/gan_results_for_presentation/stylegan2/NNquery_inception_v3/FLOWER_128_sub1000_resume/fakes003248/ \
+ --num_row 32 --num_col 32 
+ ```
+(d) To run 1-NN query in SimCLR space: for example
+```
+cd new_metrics_SimCLR
+python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_200_26_2000_model.pth \
+ --dataset FLOWER_128_sub1000 --data_dir /Usr/stylegan2/datasets_images/FLOWER_128_sub1000/ \
+ --gan_dir /Usr/stylegan2/imgs/NNquery_simCLR_v2/FLOWER_128_sub1000_resume/fakes003248/view_sampleSheetImgs/ \
+ --result_dir /Usr/stylegan2/imgs/NNquery_simCLR_v2/FLOWER_128_sub1000_resume/fakes003248/ \
+ --num_row 32 --num_col 32 --mean_std_data_dir /Usr/data/flower/ \
+ --old_batch_size 26
+```
 
 
 
