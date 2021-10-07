@@ -17,3 +17,12 @@ First, you may optionally prepare a pre-processed HDF5 version of your target da
 ```
 ./scripts/utils/prepare_data.sh
 ```
+Which by default assumes your training set (images) is downloaded into the root folder ```data``` in this directory, and will prepare the cached HDF5 at 128x128 pixel resolution.
+
+
+
+
+
+
+
+
