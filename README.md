@@ -85,6 +85,7 @@ nvcc test_nvcc.cu -o test_nvcc -run
 | CPU says hello.
 | GPU says hello.
 ```
+On Windows, the compilation requires Microsoft Visual Studio to be in PATH. We recommend installing Visual Studio Community Edition and adding into ```PATH``` using ```"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"```.
 
 
 
