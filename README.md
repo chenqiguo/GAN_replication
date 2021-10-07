@@ -30,7 +30,7 @@ By default, everything is saved to weights/samples/logs/data folders.
 This repo uses the PyTorch in-built inception network to calculate IS and FID. These scores are different from the scores you would get using the official TF inception code, and are only for monitoring purposes! Run sample.py on your model, with the ```--sample_npz``` argument, then run inception_tf13 to calculate the actual TensorFlow IS. Note that you will need to have TensorFlow 1.3 or earlier installed, as TF1.4+ breaks the original IS code.
 
 # 1.4 1-Nearest Neighbor Query
-Here we provide 1-NN query on the original training image for each GAN generated image in 3 different latent space.
+Here we provide 1-NN query on the original training image for each GAN generated image in 4 different latent space.
 (a) To run 1-NN query in pixel-wise space:
 ```
 python NN_query_thresh_finalVer.py
@@ -51,4 +51,25 @@ python NNquery_inceptionv3_pixelwise_myTest.py \
  --result_dir /Usr/gan_results_for_presentation/biggan/NNquery_inceptionv3_pixelwise/FLOWER_128_sub1000/Itr38950/ \
  --num_row 32 --num_col 32
  ```
+(d) To run 1-NN query in SimCLR space: for example
+```
+cd new_metrics_SimCLR
+python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_200_26_2000_model.pth \
+ --dataset FLOWER_128_sub1000 --data_dir /Usr/BigGAN-PyTorch/imgs/FLOWER_128_sub1000/ \
+ --gan_dir /Usr/gan_results_for_presentation/biggan/NN_query/FLOWER_128_sub1000/Itr38950/view_sampleSheetImgs/ \
+ --result_dir /Usr/gan_results_for_presentation/biggan/NNquery_simCLR_v2/FLOWER_128_sub1000/Itr38950/ \
+ --num_row 32 --num_col 32 --mean_std_data_dir /Usr/data/flower/ \
+ --old_batch_size 26
+```
+
+
+
+
+
+
+
+
+
+
+
 
