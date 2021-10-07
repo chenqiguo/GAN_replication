@@ -31,6 +31,7 @@ This repo uses the PyTorch in-built inception network to calculate IS and FID. T
 
 # 1.4. 1-Nearest Neighbor Query
 Here we provide 1-NN query on the original training image for each GAN generated image in 4 different latent space.
+
 (a) To run 1-NN query in pixel-wise space:
 ```
 python NN_query_thresh_finalVer.py
