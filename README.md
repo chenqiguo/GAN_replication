@@ -87,6 +87,22 @@ nvcc test_nvcc.cu -o test_nvcc -run
 ```
 On Windows, the compilation requires Microsoft Visual Studio to be in PATH. We recommend installing Visual Studio Community Edition and adding into ```PATH``` using ```"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"```.
 
+# 2.2. Preparing datasets
+To generate TFRecord of the sub-dataset (for example, FLOWER_256_sub1000), use:
+```
+python dataset_tool.py \
+ create_from_images datasets/FLOWER_256_sub1000 \
+ /Usr/data/flower/jpg --resolution=256 \
+ --random_subset=1000
+```
+
+
+
+
+
+
+
+
 
 
 
