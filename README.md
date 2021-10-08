@@ -147,12 +147,16 @@ python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_
 ```
 
 # 3. Dataset Complexity
-To compute the Intrinsic Dimensionality for a dataset, run:
+To compute the Intrinsic Dimensionality (ID) for a dataset, run:
 ```
+cd dataset_complexity
 python intdim_mle_chenqi_v4.py
 ```
 
+# 4. Fitting Dataset ID vs. GAN Replication Percentage Curves
+To fit and plot the curves, run code in ```MATLAB_fit_plt_Curves/model/```.
 
+Some fitting results are provided in ```MATLAB_fit_plt_Curves/results/```.
 
 
 
