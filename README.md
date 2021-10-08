@@ -158,6 +158,6 @@ To fit and plot the curves, run code in ```MATLAB_fit_plt_Curves/model/```.
 
 Some fitting results are provided in ```MATLAB_fit_plt_Curves/results/```.
 
-
-
+# 5. AMT Human Behavior Experiments
+Codes and results are provided in ```humanBehavior_experiment/```.
 
