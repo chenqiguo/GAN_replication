@@ -48,6 +48,7 @@ python NNquery_inceptionv3_myTest.py \
  --result_dir /Usr/gan_results_for_presentation/biggan/NNquery_inception_v3/FLOWER_128_sub1000/Itr38950/ \
  --num_row 32 --num_col 32 
 ```
+
 (c) To run 1-NN query in inceptionV3 concatenating pixel-wise space: for example
 ```
 python NNquery_inceptionv3_pixelwise_myTest.py \
@@ -66,6 +67,9 @@ python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_
  --num_row 32 --num_col 32 --mean_std_data_dir /Usr/data/flower/ \
  --old_batch_size 26
 ```
+
+The figure below compared image replications in RGB and SimCLR space:
+![BIGGAN-NN-RGB-SimCLR results](./figures/biggan_NN_rgb_simclr.png?raw=true)
 
 # 2. StyleGAN2 — Official TensorFlow Implementation
 Analyzing and Improving the Image Quality of StyleGAN
