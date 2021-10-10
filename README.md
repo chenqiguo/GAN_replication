@@ -163,6 +163,9 @@ python NNquery_simCLR_myTest.py --model_path results_v2/FLOWER_128/best_128_0.5_
  --old_batch_size 26
 ```
 
+The figure below compared StyleGAN2 image replications in RGB and SimCLR space:
+![STYLEGAN2-NN-RGB-SimCLR results](./figures/stylegan2_NN_rgb_simclr.png?raw=true)
+
 # 3. Dataset Complexity
 To compute the Intrinsic Dimensionality (ID) for a dataset, run:
 ```
