@@ -1,6 +1,6 @@
-# GAN_replication
- 
+# <p align="center"> GAN_replication </p>
 Official code of ICCV 2021 [When does GAN replicate? An indication on the choice of dataset size] by Qianli Feng, Chenqi Guo, Fabian Benitez-Quiroz, Aleix Martinez.
+
 ![GAN-REP results](./figures/github_image.png?raw=true)
 
 # 1. BigGAN-PyTorch
