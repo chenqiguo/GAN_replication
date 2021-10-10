@@ -8,6 +8,8 @@ This contains code for GPU training of BigGANs from Large Scale GAN Training for
 
 This code is by Andy Brock and Alex Andonian.
 
+![BIGGAN results](./figures/biggan.png?raw=true)
+
 # 1.1. How To Use This Code
 You will need:
 
