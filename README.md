@@ -1,7 +1,8 @@
 # GAN_replication
  
 Official code of ICCV 2021 [When does GAN replicate? An indication on the choice of dataset size] by Qianli Feng, Chenqi Guo, Fabian Benitez-Quiroz, Aleix Martinez. 
-![GAN-REP results](./figures/github_image.png?raw=true)
+<img src="./figures/github_image.png" alt="GAN-REP" width="200"/>
+
 
 # 1. BigGAN-PyTorch
 This contains code for GPU training of BigGANs from Large Scale GAN Training for High Fidelity Natural Image Synthesis by Andrew Brock, Jeff Donahue, and Karen Simonyan.
