@@ -49,6 +49,9 @@ python NNquery_inceptionv3_myTest.py \
  --num_row 32 --num_col 32 
 ```
 
+The figure below compared image replications in RGB and InceptionV3 space:
+![BIGGAN-NN-RGB-IncepV3 results](./figures/biggan_NN_rgb_incepv3.png?raw=true)
+
 (c) To run 1-NN query in inceptionV3 concatenating pixel-wise space: for example
 ```
 python NNquery_inceptionv3_pixelwise_myTest.py \
