@@ -82,6 +82,8 @@ Paper: http://arxiv.org/abs/1912.04958
 
 Video: https://youtu.be/c-NJtV9Jvp0
 
+![STYLEGAN2 results](./figures/stylegan2.png?raw=true)
+
 # 2.1. Requirements
 * Both Linux and Windows are supported. Linux is recommended for performance and compatibility reasons.
 * 64-bit Python 3.6 installation. We recommend Anaconda3 with numpy 1.14.3 or newer.
