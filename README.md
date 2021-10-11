@@ -1,5 +1,5 @@
 # <p align="center"> GAN-replication </p>
-Official code of ICCV 2021 [When does GAN replicate? An indication on the choice of dataset size] by Qianli Feng, Chenqi Guo, Fabian Benitez-Quiroz, Aleix Martinez.
+Official code of ICCV 2021 [When does GAN replicate? An indication on the choice of dataset size](https://openaccess.thecvf.com/content/ICCV2021/papers/Feng_When_Do_GANs_Replicate_On_the_Choice_of_Dataset_Size_ICCV_2021_paper.pdf) by Qianli Feng, Chenqi Guo, Fabian Benitez-Quiroz, Aleix Martinez.
 
 ![GAN-REP results](./figures/github_image.png?raw=true)
 
